@@ -1,0 +1,99 @@
+/* Fuente y estilos generales */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f2f5; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px; 
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1100px;
+  min-height: 80vh;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+
+.left {
+  background: #0b66ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+}
+.brand h2 {
+  margin: 0;
+  font-size: 2em;
+}
+.brand p {
+  margin-top: 10px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.form-card {
+  width: 100%;
+  max-width: 400px;
+}
+.form-head h1 {
+  margin: 0 0 10px;
+}
+.form-head p {
+  margin: 0 0 20px;
+  color: #666;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.forgot {
+  display: block;
+  text-align: right;
+  font-size: 0.9em;
+  margin-bottom: 15px;
+  color: #0b66ff;
+  text-decoration: none;
+}
+.btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  background: #0b66ff;
+  color: white;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.footer-text {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 0.9em;
+}
+.footer-text a {
+  color: #0b66ff;
+  text-decoration: none;
+}
